@@ -1,0 +1,8 @@
+POST http://localhost:3333/repositories
+Content-Type: application/json
+
+{
+    "title": "Test",
+    "utl": "test.com",
+    "techs": ["c#", "js", "ts"]
+}
